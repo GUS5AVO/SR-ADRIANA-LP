@@ -1,0 +1,2059 @@
+<!DOCTYPE<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Adriana - Consultora Oficial SR Suplementos. Transforme sua saúde com suplementos naturais. Resultados comprovados em emagrecimento, energia e foco.">
+  <meta name="keywords" content="suplementos naturais, emagrecimento, energia, foco, consultora SR, Adriana">
+  <meta name="author" content="Adriana SR Suplementos">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:title" content="Adriana SR Suplementos | Sua Transformação Começa Aqui">
+  <meta property="og:description" content="Descubra os suplementos naturais que transformaram a vida da Adriana e já mudaram centenas de mulheres.">
+  <meta property="og:image" content="assets/images/adriana-hero.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="">
+  <meta property="twitter:title" content="Adriana SR Suplementos | Sua Transformação Começa Aqui">
+  <meta property="twitter:description" content="Descubra os suplementos naturais que transformaram a vida da Adriana e já mudaram centenas de mulheres.">
+  <meta property="twitter:image" content="assets/images/adriana-hero.jpg">
+
+  <title>Adriana SR Suplementos | Sua Transformação Começa Aqui</title>
+  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS Inline para Performance -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    :root {
+      --primary-green: #2B613A;
+      --accent-lime: #A4D65E;
+      --dark-green: #1a4027;
+      --light-bg: #f7faf8;
+      --white: #ffffff;
+      --gray-100: #f8f9fa;
+      --gray-200: #e9ecef;
+      --gray-600: #6c757d;
+      --gray-800: #343a40;
+      --success-green: #28a745;
+      --warning-orange: #fd7e14;
+    }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--white);
+      color: var(--gray-800);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    
+    /* Dark mode support */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --white: #1a1a1a;
+        --light-bg: #2a2a2a;
+        --gray-100: #2a2a2a;
+        --gray-200: #3a3a3a;
+        --gray-800: #e5e5e5;
+      }
+    }
+    
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, var(--primary-green) 0%, var(--dark-green) 50%, var(--primary-green) 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><pattern id="supplement-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="2" fill="rgba(164,214,94,0.15)"/><circle cx="10" cy="10" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="30" cy="30" r="1.5" fill="rgba(164,214,94,0.2)"/></pattern></defs><rect width="200" height="200" fill="url(%23supplement-pattern)"/></svg>');
+      opacity: 0.3;
+    }
+    
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+    
+    @media (min-width: 992px) {
+      .hero-content {
+        grid-template-columns: 1fr 400px;
+        gap: 60px;
+      }
+    }
+    
+    .hero-text {
+      color: white;
+      text-align: center;
+    }
+    
+    @media (min-width: 992px) {
+      .hero-text {
+        text-align: left;
+      }
+    }
+    
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(164, 214, 94, 0.2);
+      border: 1px solid var(--accent-lime);
+      color: var(--accent-lime);
+      padding: 8px 16px;
+      border-radius: 25px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      backdrop-filter: blur(10px);
+    }
+    
+    .hero h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(28px, 6vw, 52px);
+      font-weight: 800;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+    
+    .hero h1 .highlight {
+      color: var(--accent-lime);
+      position: relative;
+    }
+    
+    .hero p {
+      font-size: clamp(18px, 3vw, 22px);
+      margin-bottom: 30px;
+      opacity: 0.95;
+      font-weight: 500;
+    }
+    
+    .hero-cta {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+    
+    @media (min-width: 768px) {
+      .hero-cta {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .hero-cta {
+        justify-content: flex-start;
+      }
+    }
+    
+    .btn-whatsapp {
+      background: linear-gradient(135deg, var(--accent-lime) 0%, #8bc947 100%);
+      color: var(--primary-green);
+      padding: 18px 35px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 18px;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 25px rgba(164, 214, 94, 0.4);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .btn-whatsapp::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+      transition: left 0.5s;
+    }
+    
+    .btn-whatsapp:hover::before {
+      left: 100%;
+    }
+    
+    .btn-whatsapp:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 35px rgba(164, 214, 94, 0.5);
+    }
+    
+    .btn-secondary {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 15px 25px;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-radius: 50px;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+    }
+    
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.1);
+      border-color: var(--accent-lime);
+    }
+    
+    .hero-image {
+      display: flex;
+      justify-content: center;
+      position: relative;
+    }
+    
+    .adriana-hero-photo {
+      width: 100%;
+      max-width: 350px;
+      height: 350px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
+      border: 4px solid var(--accent-lime);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      position: relative;
+      z-index: 2;
+      filter: brightness(1.05) contrast(1.1);
+    }
+    
+    .floating-elements {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      pointer-events: none;
+    }
+    
+    .floating-pill {
+      position: absolute;
+      background: rgba(164, 214, 94, 0.2);
+      border: 2px solid var(--accent-lime);
+      border-radius: 20px;
+      padding: 8px 15px;
+      color: var(--accent-lime);
+      font-size: 12px;
+      font-weight: 600;
+      backdrop-filter: blur(10px);
+      animation: float 3s ease-in-out infinite;
+    }
+    
+    .floating-pill:nth-child(1) {
+      top: 10%;
+      left: 10%;
+      animation-delay: 0s;
+    }
+    
+    .floating-pill:nth-child(2) {
+      top: 20%;
+      right: 10%;
+      animation-delay: 1s;
+    }
+    
+    .floating-pill:nth-child(3) {
+      bottom: 20%;
+      left: 5%;
+      animation-delay: 2s;
+    }
+    
+    .floating-pill:nth-child(4) {
+      bottom: 10%;
+      right: 15%;
+      animation-delay: 3s;
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-15px) rotate(2deg); }
+    }
+    
+    /* Sales Counter Float */
+    .sales-counter-float {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: var(--white);
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      border: 2px solid var(--accent-lime);
+      z-index: 1000;
+      max-width: 300px;
+      animation: slideInRight 0.5s ease-out;
+      overflow: hidden;
+    }
+    
+    @media (max-width: 768px) {
+      .sales-counter-float {
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        max-width: none;
+        font-size: 12px;
+      }
+      
+      .sales-counter-header {
+        padding: 8px 12px;
+        font-size: 12px;
+      }
+      
+      .sales-notification {
+        padding: 12px;
+        gap: 10px;
+      }
+      
+      .customer-avatar {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+      }
+      
+      .customer-name {
+        font-size: 12px;
+      }
+      
+      .product-sold {
+        font-size: 11px;
+      }
+      
+      .location {
+        font-size: 10px;
+      }
+      
+      .sales-time {
+        padding: 3px 6px;
+        font-size: 10px;
+      }
+      
+      .sales-counter-close {
+        font-size: 16px;
+        width: 18px;
+        height: 18px;
+      }
+    }
+    
+    .sales-counter-header {
+      background: linear-gradient(135deg, var(--primary-green), var(--accent-lime));
+      color: white;
+      padding: 10px 15px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      position: relative;
+    }
+    
+    .sales-counter-close {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 0;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: background 0.2s;
+      margin-left: auto;
+    }
+    
+    .sales-counter-close:hover {
+      background: rgba(255,255,255,0.2);
+    }
+    
+    .sales-notification {
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      animation: fadeIn 0.5s ease-in;
+    }
+    
+    .customer-avatar {
+      font-size: 24px;
+      width: 40px;
+      height: 40px;
+      background: var(--light-bg);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    
+    .sales-info {
+      flex: 1;
+    }
+    
+    .customer-name {
+      font-weight: 600;
+      color: var(--primary-green);
+      font-size: 14px;
+    }
+    
+    .product-sold {
+      color: var(--gray-600);
+      font-size: 13px;
+      margin: 2px 0;
+    }
+    
+    .location {
+      color: var(--gray-600);
+      font-size: 12px;
+    }
+    
+    .sales-time {
+      background: var(--accent-lime);
+      color: var(--primary-green);
+      padding: 4px 8px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      flex-shrink: 0;
+    }
+    
+    @keyframes slideInRight {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    .sales-counter-hidden {
+      transform: translateX(100%);
+      opacity: 0;
+      transition: all 0.3s ease-out;
+    }
+
+    /* Trust Section */
+    .trust-section {
+      background: var(--light-bg);
+      padding: 40px 20px 60px;
+      text-align: center;
+    }
+    
+    .trust-content {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+    
+    .trust-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .trust-icon {
+      width: 50px;
+      height: 50px;
+      background: var(--primary-green);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 20px;
+    }
+    
+    .trust-text {
+      font-weight: 600;
+      color: var(--primary-green);
+    }
+    
+    /* Sales Stats */
+    .sales-stats {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border: 2px solid var(--accent-lime);
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .stats-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 30px;
+    }
+    
+    .stat-item {
+      text-align: center;
+      position: relative;
+    }
+    
+    .stat-item::after {
+      content: '';
+      position: absolute;
+      right: -15px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1px;
+      height: 40px;
+      background: var(--gray-200);
+    }
+    
+    .stat-item:last-child::after {
+      display: none;
+    }
+    
+    .stat-number {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--primary-green);
+      font-family: 'Montserrat', sans-serif;
+      display: block;
+      line-height: 1;
+      margin-bottom: 5px;
+      animation: countUp 2s ease-out;
+    }
+    
+    .stat-label {
+      font-size: 14px;
+      color: var(--gray-600);
+      font-weight: 600;
+    }
+    
+    @keyframes countUp {
+      from { 
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to { 
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .stats-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+      
+      .stat-item::after {
+        display: none;
+      }
+    }
+    
+    /* Story Section */
+    .story-section {
+      padding: 80px 20px;
+      background: var(--white);
+    }
+    
+    .story-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .section-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    
+    .section-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(32px, 5vw, 48px);
+      font-weight: 700;
+      color: var(--primary-green);
+      margin-bottom: 15px;
+    }
+    
+    .section-subtitle {
+      font-size: 20px;
+      color: var(--gray-600);
+      font-weight: 500;
+    }
+    
+    .story-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 50px;
+      align-items: center;
+    }
+    
+    @media (min-width: 992px) {
+      .story-grid {
+        grid-template-columns: 400px 1fr;
+      }
+    }
+    
+    .story-image {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .story-photo {
+      width: 100%;
+      max-width: 350px;
+      height: 400px;
+      border-radius: 20px;
+      object-fit: cover;
+      object-position: center top;
+      box-shadow: 0 20px 40px rgba(43, 97, 58, 0.2);
+      filter: brightness(1.02) contrast(1.05);
+    }
+    
+    .story-stats {
+      position: absolute;
+      bottom: -20px;
+      right: -20px;
+      background: var(--white);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      border: 3px solid var(--accent-lime);
+    }
+    
+    .story-stats-number {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--primary-green);
+      display: block;
+    }
+    
+    .story-stats-text {
+      font-size: 12px;
+      color: var(--gray-600);
+      font-weight: 600;
+    }
+    
+    .story-content {
+      background: var(--gray-100);
+      padding: 40px;
+      border-radius: 20px;
+      position: relative;
+    }
+    
+    .story-content::before {
+      content: '"';
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      font-size: 60px;
+      color: var(--accent-lime);
+      font-family: Georgia, serif;
+      opacity: 0.5;
+    }
+    
+    .story-text {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 25px;
+    }
+    
+    .story-highlight {
+      background: linear-gradient(120deg, var(--accent-lime) 0%, var(--accent-lime) 100%);
+      background-repeat: no-repeat;
+      background-size: 100% 40%;
+      background-position: 0 80%;
+      font-weight: 600;
+      padding: 2px 0;
+    }
+    
+    .transformation-numbers {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+      padding: 25px;
+      background: var(--white);
+      border-radius: 15px;
+      border-left: 5px solid var(--primary-green);
+    }
+    
+    .number-item {
+      text-align: center;
+    }
+    
+    .number {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--primary-green);
+      display: block;
+    }
+    
+    .number-label {
+      font-size: 12px;
+      color: var(--gray-600);
+      font-weight: 600;
+    }
+    
+    /* Products Section */
+    .products-section {
+      padding: 80px 20px;
+      background: var(--light-bg);
+    }
+    
+    .products-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      margin-top: 50px;
+    }
+    
+    .product-card {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 35px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .product-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, var(--primary-green), var(--accent-lime));
+    }
+    
+    .product-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+    }
+    
+    .product-image {
+      text-align: center;
+      margin-bottom: 25px;
+      position: relative;
+    }
+    
+    .product-photo {
+      width: 150px;
+      height: 200px;
+      object-fit: contain;
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+    
+    .product-card:hover .product-photo {
+      transform: scale(1.05);
+    }
+    
+    .product-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .product-name {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--primary-green);
+    }
+    
+    .product-benefits {
+      list-style: none;
+      margin-bottom: 25px;
+    }
+    
+    .product-benefits li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+    
+    .product-benefits li::before {
+      content: '';
+      width: 20px;
+      height: 20px;
+      background: var(--success-green);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+    
+    .product-benefits li:nth-child(1)::before { content: '✓'; }
+    .product-benefits li:nth-child(2)::before { content: '✓'; }
+    .product-benefits li:nth-child(3)::before { content: '✓'; }
+    .product-benefits li:nth-child(4)::before { content: '✓'; }
+    
+    .bestseller-badge {
+      background: linear-gradient(135deg, #ff6b35, #f7931e);
+      color: white;
+      padding: 6px 15px;
+      border-radius: 25px;
+      font-size: 12px;
+      font-weight: 800;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+      animation: pulse 2s infinite;
+      z-index: 10;
+    }
+    
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    .product-image {
+      position: relative;
+    }
+    
+    .product-price {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .price-label {
+      font-size: 14px;
+      color: var(--gray-600);
+    }
+    
+    .price-value {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--primary-green);
+    }
+    
+    /* Testimonials Section */
+    .testimonials-section {
+      padding: 80px 20px;
+      background: var(--primary-green);
+      color: white;
+    }
+    
+    .testimonials-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+    
+    .testimonial-card {
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 20px;
+      padding: 30px;
+      position: relative;
+    }
+    
+    .testimonial-card::before {
+      content: '"';
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      font-size: 40px;
+      color: var(--accent-lime);
+      opacity: 0.7;
+    }
+    
+    .testimonial-header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    
+    .testimonial-info h4 {
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    
+    .testimonial-rating {
+      color: #ffc107;
+      font-size: 14px;
+    }
+    
+    .testimonial-text {
+      font-style: italic;
+      line-height: 1.6;
+      opacity: 0.9;
+    }
+    
+    .testimonial-result {
+      background: var(--accent-lime);
+      color: var(--primary-green);
+      padding: 10px 15px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 14px;
+      margin-top: 15px;
+      text-align: center;
+    }
+    
+    /* CTA Section */
+    .cta-section {
+      padding: 80px 20px;
+      background: linear-gradient(135deg, var(--accent-lime) 0%, #8bc947 100%);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .cta-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(43,97,58,0.2)"/><circle cx="80" cy="80" r="3" fill="rgba(43,97,58,0.15)"/><circle cx="50" cy="60" r="1.5" fill="rgba(43,97,58,0.25)"/></svg>');
+    }
+    
+    .cta-container {
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .cta-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(32px, 5vw, 48px);
+      font-weight: 800;
+      color: var(--primary-green);
+      margin-bottom: 20px;
+    }
+    
+    .cta-subtitle {
+      font-size: 24px;
+      color: var(--dark-green);
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+    
+    .cta-description {
+      font-size: 18px;
+      color: var(--dark-green);
+      margin-bottom: 40px;
+      opacity: 0.8;
+    }
+    
+    .cta-button {
+      background: var(--primary-green);
+      color: white;
+      padding: 25px 50px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 20px;
+      display: inline-flex;
+      align-items: center;
+      gap: 15px;
+      transition: all 0.3s ease;
+      box-shadow: 0 10px 30px rgba(43, 97, 58, 0.3);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .cta-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.5s;
+    }
+    
+    .cta-button:hover::before {
+      left: 100%;
+    }
+    
+    .cta-button:hover {
+      background: var(--dark-green);
+      transform: translateY(-3px);
+      box-shadow: 0 15px 40px rgba(43, 97, 58, 0.4);
+    }
+    
+    .urgency-note {
+      margin-top: 25px;
+      font-size: 16px;
+      color: var(--dark-green);
+      font-weight: 600;
+      opacity: 0.8;
+    }
+    
+    /* Footer */
+    .footer {
+      background: var(--dark-green);
+      color: white;
+      text-align: center;
+      padding: 50px 20px 30px;
+    }
+    
+    .footer-content {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .footer h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    
+    .footer p {
+      opacity: 0.8;
+      margin-bottom: 20px;
+    }
+    
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    
+    .social-link {
+      width: 50px;
+      height: 50px;
+      background: rgba(164, 214, 94, 0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent-lime);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .social-link:hover {
+      background: var(--accent-lime);
+      color: var(--primary-green);
+      transform: translateY(-3px);
+    }
+    
+    /* Mobile Optimized Design - Matching Desktop Quality */
+    @media (max-width: 768px) {
+      /* Hero Mobile - Improved */
+      .hero {
+        min-height: 100vh;
+        padding: 30px 0;
+      }
+      
+      .hero-content {
+        padding: 40px 20px;
+        gap: 50px;
+        grid-template-columns: 1fr;
+      }
+      
+      .hero h1 {
+        font-size: clamp(28px, 8vw, 42px);
+        line-height: 1.1;
+        margin-bottom: 20px;
+      }
+      
+      .hero p {
+        font-size: clamp(18px, 4vw, 20px);
+        margin-bottom: 30px;
+      }
+      
+      .hero-badge {
+        font-size: 13px;
+        padding: 8px 16px;
+        margin-bottom: 20px;
+      }
+      
+      .adriana-hero-photo {
+        max-width: 320px;
+        height: 320px;
+      }
+      
+      .floating-pill {
+        display: none;
+      }
+      
+      .btn-whatsapp {
+        padding: 18px 35px;
+        font-size: 17px;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 12px;
+      }
+      
+      .btn-secondary {
+        padding: 15px 25px;
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      .hero-cta {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+        gap: 15px;
+      }
+      
+      /* Trust Section Mobile - Enhanced */
+      .trust-section {
+        padding: 50px 20px 60px;
+      }
+      
+      .trust-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-bottom: 50px;
+      }
+      
+      .trust-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+      }
+      
+      .trust-text {
+        font-size: 15px;
+      }
+      
+      /* Sales Stats Mobile - Better Spacing */
+      .sales-stats {
+        padding: 30px 25px;
+        margin: 0 20px;
+      }
+      
+      .stats-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+      }
+      
+      .stat-item::after {
+        display: none;
+      }
+      
+      .stat-number {
+        font-size: 30px;
+      }
+      
+      .stat-label {
+        font-size: 14px;
+      }
+      
+      /* Story Section Mobile - Improved Layout */
+      .story-section {
+        padding: 70px 20px;
+      }
+      
+      .section-title {
+        font-size: clamp(28px, 6vw, 36px);
+        margin-bottom: 15px;
+      }
+      
+      .section-subtitle {
+        font-size: 18px;
+        margin-bottom: 50px;
+      }
+      
+      .story-grid {
+        gap: 40px;
+        grid-template-columns: 1fr;
+      }
+      
+      .story-photo {
+        max-width: 320px;
+        height: 360px;
+      }
+      
+      .story-stats {
+        position: static;
+        margin-top: 25px;
+        margin-right: 0;
+        width: fit-content;
+        margin-left: auto;
+        padding: 18px 22px;
+      }
+      
+      .story-content {
+        padding: 35px 25px;
+      }
+      
+      .story-content::before {
+        font-size: 50px;
+        top: 8px;
+        left: 18px;
+      }
+      
+      .story-text {
+        font-size: 17px;
+        line-height: 1.7;
+      }
+      
+      .transformation-numbers {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 25px;
+      }
+      
+      .number {
+        font-size: 22px;
+      }
+      
+      .number-label {
+        font-size: 12px;
+      }
+      
+      /* Products Section Mobile - Premium Look */
+      .products-section {
+        padding: 70px 20px;
+      }
+      
+      .products-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: 40px;
+      }
+      
+      .product-card {
+        padding: 30px 25px;
+        margin: 0 10px;
+      }
+      
+      .product-photo {
+        width: 140px;
+        height: 180px;
+      }
+      
+      .product-image {
+        margin-bottom: 25px;
+      }
+      
+      .product-name {
+        font-size: 22px;
+        margin-bottom: 18px;
+      }
+      
+      .product-benefits {
+        margin-bottom: 22px;
+      }
+      
+      .product-benefits li {
+        font-size: 15px;
+        margin-bottom: 12px;
+      }
+      
+      .product-benefits li::before {
+        width: 18px;
+        height: 18px;
+        font-size: 11px;
+      }
+      
+      .price-label {
+        font-size: 14px;
+      }
+      
+      .price-value {
+        font-size: 17px;
+      }
+      
+      .bestseller-badge {
+        font-size: 11px;
+        padding: 5px 12px;
+        top: 8px;
+        right: 8px;
+      }
+      
+      /* Testimonials Mobile - Better Design */
+      .testimonials-section {
+        padding: 70px 20px;
+      }
+      
+      .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-top: 40px;
+      }
+      
+      .testimonial-card {
+        padding: 25px 20px;
+        margin: 0 10px;
+      }
+      
+      .testimonial-card::before {
+        font-size: 35px;
+        top: 8px;
+        left: 18px;
+      }
+      
+
+      
+      .testimonial-info h4 {
+        font-size: 15px;
+      }
+      
+      .testimonial-rating {
+        font-size: 13px;
+      }
+      
+      .testimonial-text {
+        font-size: 15px;
+        line-height: 1.6;
+      }
+      
+      .testimonial-result {
+        padding: 10px 15px;
+        font-size: 13px;
+        margin-top: 15px;
+      }
+      
+      /* CTA Section Mobile - Enhanced */
+      .cta-section {
+        padding: 70px 20px;
+      }
+      
+      .cta-title {
+        font-size: clamp(28px, 6vw, 36px);
+        margin-bottom: 18px;
+      }
+      
+      .cta-subtitle {
+        font-size: 20px;
+        margin-bottom: 12px;
+      }
+      
+      .cta-description {
+        font-size: 17px;
+        margin-bottom: 35px;
+      }
+      
+      .cta-button {
+        padding: 22px 45px;
+        font-size: 19px;
+        width: 100%;
+        max-width: 320px;
+      }
+      
+      .urgency-note {
+        font-size: 15px;
+        margin-top: 22px;
+      }
+      
+      /* Footer Mobile - Professional */
+      .footer {
+        padding: 45px 20px 25px;
+      }
+      
+      .footer h3 {
+        font-size: 22px;
+        margin-bottom: 12px;
+      }
+      
+      .footer p {
+        font-size: 15px;
+        margin-bottom: 18px;
+      }
+      
+      .social-links {
+        gap: 18px;
+        margin-bottom: 25px;
+      }
+      
+      .social-link {
+        width: 48px;
+        height: 48px;
+      }
+    }
+    
+    /* Extra Small Mobile (320px) - Premium Experience */
+    @media (max-width: 375px) {
+      .hero-content {
+        padding: 25px 15px;
+      }
+      
+      .adriana-hero-photo {
+        max-width: 280px;
+        height: 280px;
+      }
+      
+      .trust-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      
+      .product-card {
+        padding: 25px 20px;
+        margin: 0 5px;
+      }
+      
+      .product-photo {
+        width: 120px;
+        height: 160px;
+      }
+      
+      .transformation-numbers {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 20px;
+      }
+      
+      .testimonial-card {
+        padding: 20px 18px;
+        margin: 0 5px;
+      }
+      
+      .sales-stats {
+        margin: 0 15px;
+        padding: 20px;
+      }
+      
+      .story-content {
+        padding: 30px 20px;
+      }
+      
+      .cta-button {
+        padding: 20px 35px;
+        font-size: 18px;
+      }
+    }
+    
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    /* Mobile Touch Improvements */
+    @media (max-width: 768px) {
+      /* Prevent zoom on inputs */
+      input, textarea, select {
+        font-size: 16px !important;
+      }
+      
+      /* Better touch targets */
+      .btn-whatsapp,
+      .btn-secondary,
+      .cta-button {
+        min-height: 44px;
+        touch-action: manipulation;
+      }
+      
+      /* Improve button spacing */
+      .hero-cta {
+        gap: 12px;
+      }
+      
+      /* Better text contrast on mobile */
+      .hero h1,
+      .hero p {
+        text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+      }
+      
+      /* Optimize image loading for mobile */
+      .product-photo,
+      .adriana-hero-photo,
+      .story-photo {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+      }
+    }
+    
+    /* Loading animation */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .animate-fade-in {
+      animation: fadeInUp 0.6s ease-out;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text animate-fade-in">
+        <div class="hero-badge">
+          <i class="fas fa-certificate"></i>
+          Consultora Oficial SR Suplementos
+        </div>
+        <h1>
+          A Adriana mudou a <span class="highlight">própria saúde</span><br>
+          — e pode transformar a <span class="highlight">sua também</span>
+        </h1>
+        <p>
+          Descubra os suplementos naturais que revolucionaram minha vida e já transformaram centenas de mulheres. <strong>Resultados reais, saúde comprovada.</strong>
+        </p>
+        <div class="hero-cta">
+          <a href="https://wa.me/47991056995?text=Olá%20Adriana!%20Vim%20do%20seu%20site%20e%20quero%20saber%20mais%20sobre%20os%20suplementos%20SR.%20Qual%20seria%20ideal%20para%20mim?" class="btn-whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            Quero Minha Transformação
+          </a>
+          <a href="#historia" class="btn-secondary">
+            <i class="fas fa-play-circle"></i>
+            Minha História
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-image animate-fade-in">
+        <img src="https://pfst.cf2.poecdn.net/base/image/c6db76b060c92c88be4e725e7cbaf051318dfca7a70f49ad79704bd4e5fe41c3?w=400&h=400" alt="Adriana - Consultora SR Suplementos" class="adriana-hero-photo">
+        <div class="floating-elements">
+          <div class="floating-pill">💇‍♀️ SR Caps Hair</div>
+          <div class="floating-pill">🔥 Ultra Lipo</div>
+          <div class="floating-pill">⭐ Slim Power</div>
+          <div class="floating-pill">🚀 Turbo Detox</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sales Counter -->
+  <div class="sales-counter-float" id="salesCounter">
+    <div class="sales-counter-header">
+      <i class="fas fa-fire"></i>
+      <span>Vendas em Tempo Real</span>
+      <button class="sales-counter-close" onclick="closeSalesCounter()">×</button>
+    </div>
+    <div class="sales-notification" id="salesNotification">
+      <div class="customer-avatar">👩</div>
+      <div class="sales-info">
+        <div class="customer-name" id="customerName">Maria S.</div>
+        <div class="product-sold" id="productSold">acabou de comprar Slim Black</div>
+        <div class="location" id="location">São Paulo - SP</div>
+      </div>
+      <div class="sales-time" id="salesTime">há 2 min</div>
+    </div>
+  </div>
+
+  <!-- Trust Section -->
+  <section class="trust-section">
+    <div class="trust-content">
+      <div class="trust-item">
+        <div class="trust-icon">
+          <i class="fas fa-medal"></i>
+        </div>
+        <div class="trust-text">Consultora Oficial</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <div class="trust-text">+500 Clientes</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="trust-text">Resultados Comprovados</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">
+          <i class="fas fa-leaf"></i>
+        </div>
+        <div class="trust-text">100% Natural</div>
+      </div>
+    </div>
+    
+    <!-- Sales Stats Section -->
+    <div class="sales-stats">
+      <div class="stats-container">
+        <div class="stat-item">
+          <div class="stat-number" id="todaySales">23</div>
+          <div class="stat-label">Vendas Hoje</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" id="onlineUsers">47</div>
+          <div class="stat-label">Pessoas Online</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" id="weekSales">156</div>
+          <div class="stat-label">Vendas Esta Semana</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story Section -->
+  <section id="historia" class="story-section">
+    <div class="story-container">
+      <div class="section-header">
+        <h2 class="section-title">Minha História de Superação</h2>
+        <p class="section-subtitle">Como os suplementos SR mudaram completamente minha vida</p>
+      </div>
+      
+      <div class="story-grid">
+        <div class="story-image">
+          <img src="https://pfst.cf2.poecdn.net/base/image/c6db76b060c92c88be4e725e7cbaf051318dfca7a70f49ad79704bd4e5fe41c3?w=350&h=400" alt="Adriana hoje" class="story-photo">
+          <div class="story-stats">
+            <span class="story-stats-number">26kg</span>
+            <span class="story-stats-text">Eliminados</span>
+          </div>
+        </div>
+        
+        <div class="story-content">
+          <div class="story-text">
+            <p><span class="story-highlight">Em setembro de 2022</span>, minha vida virou de cabeça para baixo. COVID comprometeu <strong>95% dos meus pulmões</strong>, ganhei 40kg em apenas 3 meses, perdi parte da visão e sofri uma lesão que me impediu de trabalhar.</p>
+            
+            <div class="transformation-numbers">
+              <div class="number-item">
+                <span class="number">66kg</span>
+                <span class="number-label">Antes</span>
+              </div>
+              <div class="number-item">
+                <span class="number">106kg</span>
+                <span class="number-label">No pico</span>
+              </div>
+              <div class="number-item">
+                <span class="number">95%</span>
+                <span class="number-label">Pulmões afetados</span>
+              </div>
+            </div>
+            
+            <p>Tentei <span class="story-highlight">diversas dietas e tentativas frustradas de emagrecimento</span>, mas nada funcionava. Foi quando <strong>descobri os suplementos SR que tudo mudou!</strong> Em poucos meses, eliminei 26kg de forma natural e saudável.</p>
+            
+            <p>Sem conseguir trabalhar na área da beleza, <span class="story-highlight">encontrei nos suplementos SR uma nova chance de vida</span>. Não apenas recuperei minha saúde, como encontrei minha missão: ajudar outras mulheres a se transformarem naturalmente.</p>
+            
+            <p><strong>Hoje, com mais de 500 clientes atendidas, sei exatamente qual suplemento pode mudar SUA vida também.</strong></p>
+            
+            <div style="text-align: center; margin-top: 30px;">
+              <a href="https://www.instagram.com/reel/DLndDPvqZRj/?igsh=MTd6NmJjbzIybTViaA" target="_blank" style="display: inline-flex; align-items: center; gap: 12px; background: linear-gradient(135deg, #E4405F, #C13584); color: white; padding: 15px 25px; border-radius: 25px; text-decoration: none; font-weight: 600; font-size: 16px; box-shadow: 0 8px 20px rgba(196, 53, 132, 0.3); transition: all 0.3s ease;">
+                <i class="fab fa-instagram" style="font-size: 20px;"></i>
+                Assista Minha Transformação no Instagram
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products-section">
+    <div class="products-container">
+      <div class="section-header">
+        <h2 class="section-title">Suplementos que Transformam Vidas</h2>
+        <p class="section-subtitle">Os 4 produtos mais eficazes do catálogo SR - testados e aprovados por mim</p>
+      </div>
+      
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://pfst.cf2.poecdn.net/base/image/7b058249bbf06f5b3471c6be4386b4a9a0a18d10f73cd79bac7b982b18e896e6?w=250&h=400" alt="SR Caps Hair" class="product-photo">
+          </div>
+          <div class="product-header">
+            <h3 class="product-name">SR Caps Hair</h3>
+          </div>
+          <ul class="product-benefits">
+            <li>Promove saúde e vitalidade aos cabelos</li>
+            <li>Enriquecido com colágeno, fortalece os fios</li>
+            <li>Reduz queda e estimula crescimento capilar</li>
+            <li>Reduz linhas de expressão</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-label">Ideal para:</span>
+            <span class="price-value">Cabelos & Beleza</span>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://pfst.cf2.poecdn.net/base/image/ca904c09ffcaf6f57f27192adc1be21b4891787f981a5635e4c854ef3f13acd6?w=250&h=400" alt="Ultra Lipo" class="product-photo">
+          </div>
+          <div class="product-header">
+            <h3 class="product-name">Ultra Lipo</h3>
+          </div>
+          <ul class="product-benefits">
+            <li>Acelera o metabolismo, aumenta a libido</li>
+            <li>Elimina celulite e flacidez, controla ansiedade</li>
+            <li>Desintoxica, elimina gordura localizada</li>
+            <li>Controla compulsão por doces, inibe apetite</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-label">Ideal para:</span>
+            <span class="price-value">Detox & Emagrecimento</span>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://pfst.cf2.poecdn.net/base/image/25d24cc9aa23ba92251f81c2f5f99aae27762247b848b6acb2c78f97f893e6fa?w=250&h=400" alt="Slim Power SR" class="product-photo">
+            <div class="bestseller-badge">O MAIS VENDIDO</div>
+          </div>
+          <div class="product-header">
+            <h3 class="product-name">Slim Power SR</h3>
+          </div>
+          <ul class="product-benefits">
+            <li>Acelera metabolismo, promove desintoxicação</li>
+            <li>Elimina retenção de líquidos</li>
+            <li>Potencializa eliminação de gorduras</li>
+            <li>Inibe o apetite em até 90%</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-label">Ideal para:</span>
+            <span class="price-value">Emagrecimento Potente</span>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://pfst.cf2.poecdn.net/base/image/4a076033a30ec82ce5ec09b6bea2d558c83238ce545eb050a7c2d1ed794864c4?w=250&h=400" alt="Turbo Detox Max" class="product-photo">
+          </div>
+          <div class="product-header">
+            <h3 class="product-name">Turbo Detox Max</h3>
+          </div>
+          <ul class="product-benefits">
+            <li>Regula as funções intestinais</li>
+            <li>Desintoxica o corpo profundamente</li>
+            <li>Elimina flacidez e celulite</li>
+            <li>Potencializa o emagrecimento</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-label">Composição:</span>
+            <span class="price-value">Ágar-Ágar • Café Verde • Cúrcuma</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <div class="testimonials-container">
+      <div class="section-header">
+        <h2 class="section-title" style="color: white;">Resultados Reais das Minhas Clientes</h2>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">Transformações comprovadas com os suplementos SR</p>
+      </div>
+      
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-info">
+              <h4>Angelica</h4>
+              <div class="testimonial-rating">★★★★★</div>
+            </div>
+          </div>
+          <p class="testimonial-text">"Gente, não acredito no que aconteceu comigo! Em apenas 37 dias seguindo as orientações da Adriana com os suplementos SR, queimei 8kg! Me sinto outra pessoa, mais disposta e confiante. A Adriana é incrível!"</p>
+          <div class="testimonial-result">Resultado: -8kg em 37 dias</div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-info">
+              <h4>Julia - New Concept Hair</h4>
+              <div class="testimonial-rating">★★★★★</div>
+            </div>
+          </div>
+          <p class="testimonial-text">"Pessoal, vocês não vão acreditar! Em apenas 1 semana usando os produtos que a Adriana me indicou, queimei 8kg! Trabalho no salão e minhas clientes estão perguntando qual é o meu segredo. Obrigada Adriana!"</p>
+          <div class="testimonial-result">Resultado: -8kg em 1 semana</div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-info">
+              <h4>Maria</h4>
+              <div class="testimonial-rating">★★★★★</div>
+            </div>
+          </div>
+          <p class="testimonial-text">"Meninas, estou muito feliz! Com a ajuda da Adriana e os suplementos SR certos para mim, eliminei 7kg em apenas 20 dias. Não consigo parar de me olhar no espelho! A transformação foi incrível!"</p>
+          <div class="testimonial-result">Resultado: -7kg em 20 dias</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-container">
+      <h2 class="cta-title">Qual Suplemento Vai Transformar SUA Vida?</h2>
+      <p class="cta-subtitle">A Adriana te orienta GRATUITAMENTE!</p>
+      <p class="cta-description">
+        Consultoria personalizada • Produtos testados • Resultados garantidos
+      </p>
+      
+      <a href="https://wa.me/47991056995?text=Oi%20Adriana!%20Quero%20uma%20consultoria%20gratuita%20para%20descobrir%20qual%20suplemento%20SR%20é%20ideal%20para%20meus%20objetivos.%20Pode%20me%20ajudar?" class="cta-button">
+        <i class="fab fa-whatsapp"></i>
+        Consultoria Gratuita Agora
+      </a>
+      
+      <p class="urgency-note">
+        <i class="fas fa-clock"></i>
+        Atendimento limitado • Resposta em até 2 horas
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <h3>Adriana - Consultora SR Suplementos</h3>
+      <p>Transformando vidas através da saúde natural há mais de 2 anos</p>
+      
+      <div class="social-links">
+        <a href="https://wa.me/47991056995" class="social-link">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/adriana_cardososr?igsh=MWlocXJ0bjRwd2o2" target="_blank" class="social-link">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      
+      <p style="font-size: 14px; opacity: 0.6;">
+        © 2024 Adriana SR Suplementos • Todos os direitos reservados
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Dark mode detection
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.classList.add('dark');
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+      if (event.matches) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    });
+
+    // Smooth scrolling for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Intersection Observer for animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+
+    // Observe elements for animation
+    document.querySelectorAll('.product-card, .testimonial-card').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(el);
+    });
+
+    // WhatsApp click tracking
+    document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
+      link.addEventListener('click', function() {
+        console.log('WhatsApp link clicked:', this.href);
+      });
+    });
+
+    // Sales Counter System
+    const salesData = [
+      {
+        names: ['Maria S.', 'Ana C.', 'Carla O.', 'Julia M.', 'Fernanda L.', 'Beatriz R.', 'Camila P.', 'Luciana T.', 'Patrícia F.', 'Renata V.'],
+        products: ['SR Caps Hair', 'Ultra Lipo', 'Slim Power SR', 'Turbo Detox Max'],
+        locations: ['São Paulo - SP', 'Rio de Janeiro - RJ', 'Belo Horizonte - MG', 'Brasília - DF', 'Curitiba - PR', 'Porto Alegre - RS', 'Salvador - BA', 'Recife - PE', 'Fortaleza - CE', 'Goiânia - GO'],
+        avatars: ['👩', '👩‍🦱', '👩‍🦰', '👩‍🦳', '🧑‍🦱', '👱‍♀️', '👩‍🦲', '🧑‍🦰', '👩‍💼', '🧑‍⚕️']
+      }
+    ];
+
+    let salesCounter = 23;
+    let onlineUsers = 47;
+    let weekSales = 156;
+    let currentSaleIndex = 0;
+
+    function getRandomItem(array) {
+      return array[Math.floor(Math.random() * array.length)];
+    }
+
+    function updateSalesNotification() {
+      const notification = document.getElementById('salesNotification');
+      const customerName = document.getElementById('customerName');
+      const productSold = document.getElementById('productSold');
+      const location = document.getElementById('location');
+      const salesTime = document.getElementById('salesTime');
+      const avatar = notification.querySelector('.customer-avatar');
+
+      // Get random data
+      const name = getRandomItem(salesData[0].names);
+      const product = getRandomItem(salesData[0].products);
+      const city = getRandomItem(salesData[0].locations);
+      const customerAvatar = getRandomItem(salesData[0].avatars);
+      
+      // Generate random time (1-15 minutes ago)
+      const timeAgo = Math.floor(Math.random() * 15) + 1;
+      const timeText = timeAgo === 1 ? 'há 1 min' : `há ${timeAgo} min`;
+
+      // Update notification with fade effect
+      notification.style.opacity = '0';
+      
+      setTimeout(() => {
+        customerName.textContent = name;
+        productSold.textContent = `acabou de comprar ${product}`;
+        location.textContent = city;
+        salesTime.textContent = timeText;
+        avatar.textContent = customerAvatar;
+        notification.style.opacity = '1';
+      }, 200);
+    }
+
+    function updateStats() {
+      // Simulate real-time updates
+      const todaySalesEl = document.getElementById('todaySales');
+      const onlineUsersEl = document.getElementById('onlineUsers');
+      const weekSalesEl = document.getElementById('weekSales');
+
+      // Random increments
+      if (Math.random() > 0.7) {
+        salesCounter += 1;
+        weekSales += 1;
+        todaySalesEl.textContent = salesCounter;
+        weekSalesEl.textContent = weekSales;
+        
+        // Add animation class
+        todaySalesEl.style.transform = 'scale(1.2)';
+        todaySalesEl.style.color = 'var(--accent-lime)';
+        setTimeout(() => {
+          todaySalesEl.style.transform = 'scale(1)';
+          todaySalesEl.style.color = 'var(--primary-green)';
+        }, 300);
+      }
+
+      // Simulate online users fluctuation (±5)
+      const change = Math.floor(Math.random() * 11) - 5; // -5 to +5
+      onlineUsers = Math.max(25, Math.min(75, onlineUsers + change));
+      onlineUsersEl.textContent = onlineUsers;
+    }
+
+    function closeSalesCounter() {
+      const counter = document.getElementById('salesCounter');
+      counter.classList.add('sales-counter-hidden');
+      
+      // Show again after 30 seconds
+      setTimeout(() => {
+        counter.classList.remove('sales-counter-hidden');
+      }, 30000);
+    }
+
+    function startSalesCounter() {
+      // Show counter after 10 seconds
+      setTimeout(() => {
+        document.getElementById('salesCounter').style.display = 'block';
+      }, 10000);
+
+      // Update sales notification every 15-30 seconds
+      setInterval(() => {
+        if (!document.getElementById('salesCounter').classList.contains('sales-counter-hidden')) {
+          updateSalesNotification();
+        }
+      }, Math.random() * 15000 + 15000); // 15-30 seconds
+
+      // Update stats every 20-40 seconds
+      setInterval(() => {
+        updateStats();
+      }, Math.random() * 20000 + 20000); // 20-40 seconds
+    }
+
+    // Initialize sales counter
+    document.addEventListener('DOMContentLoaded', function() {
+      startSalesCounter();
+      
+      // Initial stats animation
+      setTimeout(() => {
+        updateStats();
+      }, 2000);
+    });
+
+    // Hide counter initially
+    document.getElementById('salesCounter').style.display = 'none';
+  </script>
+</body>
+</html>
+
